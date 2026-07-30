@@ -64,25 +64,16 @@ La herramienta facilita la inspección de las señales registradas y el análisi
 
 Entre sus funcionalidades se incluyen:
 
-Detección y selección de los eventos del salto.
-
-Visualización de la fuerza vertical en función del tiempo.
-
-Cálculo de la fuerza total cuando se utilizan dos plataformas.
-
-Estimación de la aceleración del centro de masas.
-
-Cálculo de la velocidad mediante integración de la aceleración.
-
-Estimación del desplazamiento vertical del centro de masas.
-
-Representación conjunta de fuerza, aceleración, velocidad y desplazamiento.
-
-Gráficas interactivas con desplazamiento, zoom y selección de intervalos.
-
-Selección visual del evento de interés dentro de la serie temporal.
-
-Exportación de los resultados para análisis posteriores.
+* Detección y selección de los eventos del salto.
+* Visualización de la fuerza vertical en función del tiempo.
+* Cálculo de la fuerza total cuando se utilizan dos plataformas.
+* Estimación de la aceleración del centro de masas.
+* Cálculo de la velocidad mediante integración de la aceleración.
+* Estimación del desplazamiento vertical del centro de masas.
+* Representación conjunta de fuerza, aceleración, velocidad y desplazamiento.
+* Gráficas interactivas con desplazamiento, zoom y selección de intervalos.
+* Selección visual del evento de interés dentro de la serie temporal.
+* Exportación de los resultados para análisis posteriores.
 
 ## Licencia
 
