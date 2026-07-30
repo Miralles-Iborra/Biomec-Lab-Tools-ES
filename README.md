@@ -23,9 +23,23 @@ Este repositorio reúne scripts, cuadernos de Google Colab y ejemplos prácticos
 
 Cada herramienta aborda una necesidad concreta e incluye, siempre que sea posible, una explicación de su funcionamiento, los archivos de entrada necesarios, las decisiones metodológicas aplicadas y la interpretación de los resultados obtenidos.
 
-El propósito de este repositorio no es ofrecer soluciones universales, sino compartir recursos transparentes, modificables y reproducibles que puedan adaptarse a diferentes contextos de investigación y práctica profesional.
+El propósito de este repositorio no es ofrecer soluciones universales, sino compartir recursos transparentes, modificables y reproducibles que puedan adaptarse a diferentes contextos de investigación y práctica profesional. 
 
-Las sugerencias, correcciones y propuestas de mejora son bienvenidas.
+## Uso de las herramientas en Google Colab
+En los cuadernos de Google Colab, el procesamiento se realiza mediante celdas ejecutables, por lo que no es necesario instalar Python ni utilizar una aplicación externa.
+Abre el cuaderno mediante el botón Abrir en Google Colab.
+Ejecuta las celdas siguiendo el orden indicado.
+Selecciona el modo de entrada de datos.
+Carga los archivos solicitados o utiliza los datos de ejemplo.
+Revisa las señales y selecciona los eventos de interés.
+Comprueba los resultados y descarga los archivos generados.
+
+## Aviso 
+Los scripts deben considerarse herramientas de apoyo para la investigación, la docencia y la práctica profesional. El usuario es responsable de comprobar la calidad de los datos, la adecuación de los procedimientos y la interpretación de los resultados.
+
+## Contribuciones
+
+Las sugerencias, correcciones y propuestas de mejora son bienvenidas. También puedes abrir una issue o proponer cambios mediante una pull request.
 
 ## Scrips de interés
 ### Análisis de zonas de frecuencia cardiaca
@@ -33,3 +47,31 @@ Las sugerencias, correcciones y propuestas de mejora son bienvenidas.
 Herramienta interactiva para calcular el tiempo acumulado en diferentes zonas de frecuencia cardiaca durante las partes de fuerza, funcional y resistencia de cada sesión.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/14najmM9AenrtVdPAOIq2pX93NqBPa4re?usp=sharing)
+
+### Análisis de saltos mediante plataformas de fuerza
+
+Herramienta desarrollada en Google Colab para importar, procesar y visualizar datos obtenidos mediante una o dos plataformas de fuerza durante diferentes tipos de salto vertical.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1-vxn9aJDPOOvY3PhVocSpSOvW_r53-yq?usp=sharing)
+
+El cuaderno permite trabajar mediante tres modalidades:
+
+Cargar un archivo propio exportado directamente desde la plataforma de fuerza.
+Cargar una matriz de datos previamente organizada.
+Utilizar los datos de ejemplo incluidos en el cuaderno.
+
+La herramienta facilita la inspección de las señales registradas y el análisis de las principales variables mecánicas relacionadas con el salto.
+
+Entre sus funcionalidades se incluyen:
+
+Detección y selección de los eventos del salto.
+Visualización de la fuerza vertical en función del tiempo.
+Cálculo de la fuerza total cuando se utilizan dos plataformas.
+Estimación de la aceleración del centro de masas.
+Cálculo de la velocidad mediante integración de la aceleración.
+Estimación del desplazamiento vertical del centro de masas.
+Representación conjunta de fuerza, aceleración, velocidad y desplazamiento.
+Gráficas interactivas con desplazamiento, zoom y selección de intervalos.
+Selección visual del evento de interés dentro de la serie temporal.
+Exportación de los resultados para análisis posteriores.
+
